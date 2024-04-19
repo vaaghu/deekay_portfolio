@@ -1,0 +1,34 @@
+@import "./index.module.scss";
+
+.initialSection {
+  @extend .section;
+}
+.textBox {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.personName {
+  font-size: 12vw;
+  font-family: chokokutai;
+  font-weight: 400;
+  padding: 5px 15px;
+  margin: 0px;
+  text-align: center;
+}
+.oneLiner {
+  @extend .personName;
+  font-size: 2.4vw;
+  font-weight: 100;
+}
+.personImg {
+  width: auto;
+  height: 80vh;
+  max-height: 100vh;
+  max-width: 60vw;
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}

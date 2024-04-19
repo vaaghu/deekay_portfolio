@@ -1,0 +1,31 @@
+$mainColor: black;
+
+$mainFontColor: #efc7b0;
+
+@font-face {
+  font-family: chokokutai;
+  src: url("../fonts/Chokokutai/Chokokutai-Regular.ttf");
+}
+
+@mixin flex($direction, $justy, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justy;
+  align-items: $align;
+}
+.section {
+  width: 100vw;
+  height: 100vh;
+  @include flex(column, center, center);
+  background-color: $mainColor;
+  overflow: hidden;
+  color: $mainFontColor;
+
+  ::selection {
+    background-color: red;
+  }
+}
+
+.mainSection {
+  @include flex(column, center, center);
+}
