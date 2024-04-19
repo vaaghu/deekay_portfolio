@@ -1,0 +1,7 @@
+[
+  { "name": "mail", "img": "mail", "link": "" },
+  { "name": "call", "img": "call", "link": "" },
+  { "name": "insta", "img": "instagram", "link": "" },
+  { "name": "linkedin", "img": "linkedin", "link": "" },
+  { "name": "youtube", "img": "youtube", "link": "" }
+]

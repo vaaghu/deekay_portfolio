@@ -26,9 +26,70 @@
   width: auto;
   height: 80vh;
   max-height: 100vh;
-  max-width: 60vw;
+  // max-width: 60vw;
   position: absolute;
   top: 0px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 0;
+}
+// nav
+.navBar {
+  @include flex(row, center, center);
+  position: absolute;
+  top: 10vh;
+  font-size: 20px;
+  z-index: 1;
+}
+.navDropDown {
+  @include flex(row, center, center);
+  border: 0.5px solid $mainFontColor;
+  padding: 15px;
+  img {
+    margin: 0px 15px;
+  }
+}
+
+.navMid {
+  width: 50vw;
+}
+
+.navIconBox {
+  @include flex(row, flex-start, center);
+
+  img {
+    width: 27px;
+    height: 27px;
+    margin: 0px 15px;
+  }
+}
+@media (max-width: #{$desktopViewSize}) and (min-width: #{$mobileViewSize}) {
+  .navMid {
+    width: 0vw;
+  }
+  .navBar {
+    @include flex(row, space-between, center);
+    width: 100vw;
+    padding: 0px 15px;
+  }
+}
+
+@media (max-width: $mobileViewSize) {
+  .navBar {
+    font-size: 15px;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .navDropDown {
+    padding: 5px;
+  }
+  .navMid {
+    width: unset;
+  }
+  .personImg {
+    width: 100vw;
+    height: auto;
+  }
 }
