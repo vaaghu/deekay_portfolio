@@ -1,7 +1,19 @@
 [
-  { "name": "mail", "img": "mail", "link": "" },
-  { "name": "call", "img": "call", "link": "" },
-  { "name": "insta", "img": "instagram", "link": "" },
-  { "name": "linkedin", "img": "linkedin", "link": "" },
-  { "name": "youtube", "img": "youtube", "link": "" }
+  { "name": "mail", "img": "mail", "link": "mailto:deekay0670@gmail.com" },
+  { "name": "call", "img": "call", "link": "tel:+919360748965" },
+  {
+    "name": "insta",
+    "img": "instagram",
+    "link": "https://www.instagram.com/donquix_/"
+  },
+  {
+    "name": "linkedin",
+    "img": "linkedin",
+    "link": "https://www.linkedin.com/in/deekay000/"
+  },
+  {
+    "name": "youtube",
+    "img": "youtube",
+    "link": "https://www.youtube.com/channel/UCmH-7mPQHds_D73YdVqCsXw"
+  }
 ]

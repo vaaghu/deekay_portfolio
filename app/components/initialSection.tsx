@@ -7,6 +7,9 @@ import { navIconData } from "../utils";
 export const InitialSection: React.FC<{ isMobile: boolean }> = ({
   isMobile = false,
 }) => {
+  const openLink = (link: string) => {
+    window.open(link, "_blank");
+  };
   return (
     <section className={initialSectionStyle.initialSection}>
       <nav className={initialSectionStyle.navBar}>
@@ -20,6 +23,7 @@ export const InitialSection: React.FC<{ isMobile: boolean }> = ({
             return (
               <Image
                 key={index}
+                onClick={() => openLink(icon.link)}
                 src={navIcons[icon.img]}
                 alt={`${icon.name} img`}
                 width={50}
