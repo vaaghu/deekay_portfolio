@@ -9,12 +9,18 @@ $desktopViewSize: 1024px;
   src: url("../fonts/Chokokutai/Chokokutai-Regular.ttf");
 }
 
+@font-face {
+  font-family: prata;
+  src: url("../fonts/Prata/Prata-Regular.ttf");
+}
+
 @mixin flex($direction, $justy, $align) {
   display: flex;
   flex-direction: $direction;
   justify-content: $justy;
   align-items: $align;
 }
+
 .section {
   width: 100vw;
   height: 100vh;

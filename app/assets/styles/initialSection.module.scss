@@ -21,6 +21,7 @@
   @extend .personName;
   font-size: 2.4vw;
   font-weight: 100;
+  font-family: prata;
 }
 .personImg {
   width: auto;
@@ -45,6 +46,7 @@
   @include flex(row, center, center);
   border: 0.5px solid $mainFontColor;
   padding: 15px;
+  font-family: prata;
   img {
     margin: 0px 15px;
   }
