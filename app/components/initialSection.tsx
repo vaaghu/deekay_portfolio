@@ -1,11 +1,12 @@
 import Image from "next/image";
-// import person from "../assets/images/person.png";
-import person from "../assets/images/personMobile.png";
+import { personImg, personMobileImg } from "../assets/images";
 import { menuIcon, navIcons } from "../assets/images/icons";
-
 import { initialSectionStyle } from "../assets/styles";
 import { navIconData } from "../utils";
-export const InitialSection = () => {
+
+export const InitialSection: React.FC<{ isMobile: boolean }> = ({
+  isMobile = false,
+}) => {
   return (
     <section className={initialSectionStyle.initialSection}>
       <nav className={initialSectionStyle.navBar}>
@@ -30,7 +31,7 @@ export const InitialSection = () => {
       </nav>
       <Image
         className={initialSectionStyle.personImg}
-        src={person}
+        src={isMobile ? personMobileImg : personImg}
         alt="person"
         width="150"
         height="300"

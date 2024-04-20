@@ -3,11 +3,14 @@ import { desktopView } from "../assets/images";
 import { workComponentStyle } from "../assets/styles";
 import { arrowIcon } from "../assets/images/icons";
 
-export const WorkSection: React.FC<{ name: string; link: string }> = ({
-  name,
-  link,
-}) => {
+export const WorkSection: React.FC<{
+  isMobile: boolean;
+  name: string;
+  link: string;
+  image: string;
+}> = ({ isMobile, name, link, image }) => {
   console.log(link);
+
   return (
     <div className={workComponentStyle.workSection}>
       <h2 className={workComponentStyle.title}>{name}</h2>
