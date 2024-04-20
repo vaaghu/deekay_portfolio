@@ -10,7 +10,7 @@
   transform: translateX(-50%);
 }
 .personName {
-  font-size: 12vw;
+  font-size: 9rem;
   font-family: chokokutai;
   font-weight: 400;
   padding: 5px 15px;
@@ -19,8 +19,8 @@
 }
 .oneLiner {
   @extend .personName;
-  letter-spacing: 1.2vw;
-  font-size: 2.4vw;
+  letter-spacing: 0.8rem;
+  font-size: 2rem;
   font-weight: 100;
   font-family: prata;
 }
@@ -95,5 +95,12 @@
   .personImg {
     width: 100vw;
     height: auto;
+  }
+  .personName {
+    font-size: 5rem;
+  }
+  .oneLiner {
+    font-size: 1rem;
+    letter-spacing: 0.45rem;
   }
 }
