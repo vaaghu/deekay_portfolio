@@ -1,4 +1,5 @@
 export { default as menuIcon } from "./menu.svg";
+export { default as arrowIcon } from "./arrow.svg";
 import { StaticImageData } from "next/image";
 
 //nav icons

@@ -1,6 +1,7 @@
 {
   "name": "deekay_portfolio",
   "version": "0.1.0",
+  "author": "vaaghu <vaaghu0@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -1,0 +1,47 @@
+@import "./index.module.scss";
+.workSection {
+  @extend .section;
+  position: relative;
+}
+
+.title {
+  font-size: 7vw;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  z-index: 1;
+}
+
+.image {
+  height: 100vh;
+  width: auto;
+  z-index: 0;
+}
+
+.arrowIcon {
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+@media (max-width: $mobileViewSize) {
+  .title {
+    font-size: 7vw;
+    position: absolute;
+    left: 0px;
+    width: 100vw;
+    text-align: center;
+    z-index: 1;
+  }
+  .arrowIcon {
+    width: 130px;
+    height: 130px;
+    left: 50%;
+    right: auto;
+
+    transform: translateX(-50%);
+  }
+}
