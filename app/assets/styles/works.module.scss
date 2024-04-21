@@ -25,6 +25,10 @@
   position: absolute;
   bottom: 5%;
   right: 5%;
+  transform-origin: center center;
+  &:hover {
+    scale: 0.9;
+  }
 }
 
 @media (max-width: $mobileViewSize) {
