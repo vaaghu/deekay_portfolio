@@ -9,8 +9,7 @@ export const WorkSection: React.FC<{
   link: string;
   image: string;
 }> = ({ isMobile, name, link, image }) => {
-  console.log(link);
-
+  // console.log(link);
   return (
     <div className={workComponentStyle.workSection}>
       <h2 className={workComponentStyle.title}>{name}</h2>

@@ -3,6 +3,7 @@ import { personImg, personMobileImg } from "../assets/images";
 import { menuIcon, navIcons } from "../assets/images/icons";
 import { initialSectionStyle } from "../assets/styles";
 import { navIconData } from "../utils";
+import { DropDown } from "../components";
 
 export const InitialSection: React.FC<{ isMobile: boolean }> = ({
   isMobile = false,
@@ -13,10 +14,7 @@ export const InitialSection: React.FC<{ isMobile: boolean }> = ({
   return (
     <section className={initialSectionStyle.initialSection}>
       <nav className={initialSectionStyle.navBar}>
-        <div className={initialSectionStyle.navDropDown}>
-          {" "}
-          <Image src={menuIcon} alt="menu icon" /> HOME
-        </div>
+        <DropDown />
         <div className={initialSectionStyle.navMid}></div>
         <div className={initialSectionStyle.navIconBox}>
           {navIconData.map((icon, index) => {
