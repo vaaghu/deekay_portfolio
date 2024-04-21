@@ -137,6 +137,17 @@
   .navDropDown {
     padding: 5px;
     margin-left: 15px;
+    position: static;
+    left: auto;
+    transform: unset;
+  }
+  .navDropDownMenu {
+    width: auto;
+  }
+  .navIconBox {
+    position: static;
+    left: auto;
+    transform: unset;
   }
   .navMid {
     width: unset;
