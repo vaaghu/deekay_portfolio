@@ -1,8 +1,16 @@
 [
-  { "name": "illustration", "image": "illustration", "link": "illustration" },
-  { "name": "illustration", "image": "illustration", "link": "illustration" },
-  { "name": "illustration", "image": "illustration", "link": "illustration" },
-  { "name": "illustration", "image": "illustration", "link": "illustration" },
-  { "name": "illustration", "image": "illustration", "link": "illustration" },
-  { "name": "illustration", "image": "illustration", "link": "illustration" }
+  { "name": "Illustration", "image": "illustration", "link": "illustration" },
+  {
+    "name": "Motion Design",
+    "image": "motion_design",
+    "link": "motion_design"
+  },
+  { "name": "Brand Design", "image": "brand_design", "link": "brand_design" },
+  { "name": "Web Design", "image": "web_design", "link": "web_design" },
+  { "name": "Photography", "image": "photography", "link": "photography" },
+  {
+    "name": "Video Production",
+    "image": "video_production",
+    "link": "video_production"
+  }
 ]

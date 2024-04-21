@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { desktopView } from "../assets/images";
+import { desktopView, mobileView } from "../assets/images";
 import { workComponentStyle } from "../assets/styles";
 import { arrowIcon } from "../assets/images/icons";
 
@@ -15,7 +15,7 @@ export const WorkSection: React.FC<{
       <h2 className={workComponentStyle.title}>{name}</h2>
       <Image
         className={workComponentStyle.image}
-        src={desktopView["illustration"]}
+        src={isMobile ? mobileView[image] : desktopView[image]}
         alt="work"
       />
       <Image
