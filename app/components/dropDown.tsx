@@ -3,6 +3,7 @@ import { initialSectionStyle } from "../assets/styles";
 import { menuIcon } from "../assets/images/icons";
 import Image from "next/image";
 import { worksData } from "../utils";
+import Link from "next/link";
 
 export const DropDown = () => {
   return (
@@ -13,7 +14,21 @@ export const DropDown = () => {
       </div>
       <div className={initialSectionStyle.navDropDownMenu}>
         {worksData.map((work, index) => {
-          return <button key={index}>{work.name}</button>;
+          return (
+            <button
+              onClick={() => {
+                let target = document.body.querySelector(`#${work.link}`);
+                if (target)
+                  target.scrollIntoView({
+                    behavior: "smooth",
+                    block: "center",
+                  });
+              }}
+              key={index}
+              className={initialSectionStyle.navDropDownMenuLinks}>
+              {work.name}
+            </button>
+          );
         })}
       </div>
     </div>
