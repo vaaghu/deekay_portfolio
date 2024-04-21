@@ -9,7 +9,7 @@ export const DropDown = () => {
     <div className={initialSectionStyle.navDropDown}>
       <div className={initialSectionStyle.navDropDownButton}>
         <Image src={menuIcon} alt="menu icon" />
-        HOME
+        Home
       </div>
       <div className={initialSectionStyle.navDropDownMenu}>
         {worksData.map((work, index) => {

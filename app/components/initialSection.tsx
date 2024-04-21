@@ -35,8 +35,6 @@ export const InitialSection: React.FC<{ isMobile: boolean }> = ({
         className={initialSectionStyle.personImg}
         src={isMobile ? personMobileImg : personImg}
         alt="person"
-        width="150"
-        height="300"
       />
       <div className={initialSectionStyle.textBox}>
         <h1 className={initialSectionStyle.personName}>Deekay</h1>
