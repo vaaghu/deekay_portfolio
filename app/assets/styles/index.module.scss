@@ -38,3 +38,15 @@ $desktopViewSize: 1024px;
 .mainSection {
   @include flex(column, center, center);
 }
+
+.title {
+  font-size: 9rem;
+  font-family: chokokutai;
+  font-weight: 400;
+}
+
+@media (max-width: $mobileViewSize) {
+  .title {
+    font-size: 5rem;
+  }
+}

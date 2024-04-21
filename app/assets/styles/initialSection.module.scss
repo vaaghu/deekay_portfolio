@@ -10,9 +10,7 @@
   transform: translateX(-50%);
 }
 .personName {
-  font-size: 9rem;
-  font-family: chokokutai;
-  font-weight: 400;
+  @extend .title;
   padding: 0% 15px;
   margin: 0px;
   text-align: center;
@@ -112,7 +110,7 @@
     width: 27px;
     height: 27px;
     margin: 0px 15px;
-    cursor: alias;
+    cursor: pointer;
   }
 }
 
@@ -130,7 +128,7 @@
 @media (max-width: $mobileViewSize) {
   .navBar {
     font-size: 15px;
-    top: 10px;
+    top: 20px;
     img {
       width: 20px;
       height: 20px;

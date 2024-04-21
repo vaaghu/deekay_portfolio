@@ -1,0 +1,22 @@
+{
+  "illustration": [
+    {
+      "title": "Concept art for a game development studio",
+      "tools": ["ps", "figma", "ps"],
+      "image_name": "weird_zebra",
+      "is_comic": false
+    },
+    {
+      "title": "Concept art for a game development studio",
+      "tools": ["figma"],
+      "image_name": "weird_zebra",
+      "is_comic": true,
+      "link": ""
+    }
+  ],
+  "motion_design": [],
+  "brand_design": [],
+  "web_design": [],
+  "photography": [],
+  "video_production": []
+}

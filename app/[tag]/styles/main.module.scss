@@ -1,0 +1,89 @@
+@import "../../assets/styles/index.module.scss";
+
+.mainSection {
+  @extend .section;
+  @include flex(column, flex-start, center);
+  overflow: scroll;
+}
+
+.title {
+  @extend .title;
+}
+
+.description {
+  font-family: prata;
+  font-size: 1.2rem;
+  width: 65vw;
+  text-align: center;
+}
+
+.gallery {
+  @include flex(row, center, center);
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+$cubePadding: 29px;
+.cube {
+  width: 460px;
+  height: 650px;
+  margin: 20px;
+  background-color: transparent;
+  border: 1px solid $mainFontColor;
+  // padding: $cubePadding;
+  cursor: pointer;
+  font-family: prata;
+  position: relative;
+}
+.cubeTitle {
+  font-size: 25px;
+  font-family: prata;
+  margin-bottom: 14px;
+  font-weight: 400;
+  position: relative;
+  z-index: 1;
+  width: calc(100% - calc($cubePadding + 25px));
+}
+
+.softwareTag {
+  border: 0.5px solid $mainFontColor;
+  font-size: 12px;
+  width: fit-content;
+  font-family: prata;
+  padding: 2px 9px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
+.iconsBar {
+  @include flex(row, flex-start, center);
+  position: relative;
+  z-index: 1;
+}
+.cubeIcons {
+  margin-right: 10px;
+  width: 22;
+  height: 22;
+}
+
+.crouselIcon {
+  position: absolute;
+  width: 22;
+  height: 22;
+  top: $cubePadding;
+  right: $cubePadding;
+  z-index: 1;
+}
+#cubeImg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  left: 0px;
+  border: none;
+}
+.cubeInfo {
+  position: absolute;
+  top: $cubePadding;
+  left: $cubePadding;
+}
