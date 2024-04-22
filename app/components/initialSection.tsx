@@ -20,6 +20,7 @@ export const InitialSection: React.FC<{ isMobile: boolean }> = ({
           {navIconData.map((icon, index) => {
             return (
               <Image
+                title={icon.name}
                 key={index}
                 onClick={() => openLink(icon.link)}
                 src={navIcons[icon.img]}

@@ -6,7 +6,7 @@ import { worksData } from "../utils";
 
 export const DropDown = () => {
   return (
-    <div className={initialSectionStyle.navDropDown}>
+    <div className={initialSectionStyle.navDropDown} title="drop down button">
       <div className={initialSectionStyle.navDropDownButton}>
         <Image src={menuIcon} alt="menu icon" />
         Home

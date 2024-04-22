@@ -11,20 +11,17 @@ import { cubeImages } from "./images";
 import { Image as AntdImage } from "antd";
 
 export default function Page() {
-  const params = useParams<{ tag: string }>();
+  const params = useParams<{ link: string }>();
   const [info, setInfo] = useState<worksDataDto>();
 
   const router = useRouter();
   useEffect(() => {
-    console.log(params, router, window.history);
-    console.log(window.history.state);
-
-    if (params.tag) {
-      if (!(params.tag in worksData)) {
+    if (params.link) {
+      if (!(params.link in worksData)) {
         console.log("unintended path");
         router.push("/");
       }
-      setInfo(worksData[params.tag]);
+      setInfo(worksData[params.link]);
     }
   }, [params, router]);
 
@@ -36,7 +33,7 @@ export default function Page() {
   return (
     <section className={mainStyle.mainSection}>
       <h2 className={mainStyle.title}>
-        {params.tag}
+        {info ? info.name : params.link}
         <Image
           className={mainStyle.copyright}
           src={icons.copyright}
@@ -70,12 +67,16 @@ export default function Page() {
                 {element.link ? (
                   <Image
                     className={mainStyle.cubeImg}
+                    width={460}
+                    height={650}
                     src={cubeImages["weird_zebra"]}
                     alt="img"
                   />
                 ) : (
                   <AntdImage
                     id={"#" + mainStyle.cubeImg}
+                    width={460}
+                    height={650}
                     src={cubeImages["weird_zebra"].src}
                     alt="img"
                   />
