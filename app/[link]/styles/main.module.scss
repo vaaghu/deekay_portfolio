@@ -4,6 +4,7 @@
   @extend .section;
   @include flex(column, flex-start, center);
   overflow: hidden scroll;
+  padding-bottom: 50vh;
 }
 
 .title {
@@ -108,5 +109,15 @@ $cubePadding: 29px;
   .cube {
     width: 95vw;
     height: 650px;
+  }
+  .title {
+    font-size: 2.7rem;
+  }
+  .description {
+    font-size: 0.65rem;
+  }
+  .copyright {
+    width: 12px;
+    height: 12px;
   }
 }

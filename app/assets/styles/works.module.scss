@@ -13,8 +13,8 @@
 }
 
 .image {
-  height: auto;
-  width: 100vw;
+  height: 100vh;
+  width: auto;
   z-index: 0;
 }
 
@@ -47,5 +47,9 @@
     right: auto;
 
     transform: translateX(-50%);
+  }
+  .image {
+    height: 100vh;
+    width: auto;
   }
 }

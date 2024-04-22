@@ -7,56 +7,87 @@
       {
         "title": "Concept art for a game development studio",
         "tools": ["ps"],
-        "image_name": "weird_zebra",
+        "image_name": "illustration_01",
+        "image_link_id": "1x3P6y8omwq-8Q6dW5D_PbzBLb9q2BTdo",
         "is_comic": false
       },
       {
         "title": "Artwork for a personal project",
         "tools": ["ps"],
-        "image_name": "weird_zebra",
+        "image_name": "illustration_02",
+        "image_link_id": "1dmdz7kF45jDYyd9UDvuMpDGf4mpDwHvL",
         "is_comic": false
       },
       {
         "title": "Comic for a personal project",
         "tools": ["ps"],
-        "image_name": "weird_zebra",
+        "image_name": "illustration_03",
         "is_comic": true,
         "link": "https://www.instagram.com/p/C3IHVBhP5Mx/?igsh=bGQ1emphZW1tdW0w"
       },
       {
         "title": "Artwork for a personal project",
         "tools": ["ps"],
-        "image_name": "weird_zebra",
+        "image_name": "illustration_04",
+        "image_link_id": "1B0MIq49oUHMXYhK9CDENGoJlUg8P_qBU",
         "is_comic": false
       },
       {
         "title": "Artwork for a personal project",
         "tools": ["ps"],
-        "image_name": "weird_zebra",
+        "image_name": "illustration_05",
+        "image_link_id": "18YSVlHKiTUmHTdvOI6BaWTPRXH4Bhxrs",
         "is_comic": false
       },
       {
         "title": "Artwork for a commission",
         "tools": ["ps"],
-        "image_name": "weird_zebra",
+        "image_name": "illustration_06",
+        "image_link_id": "1mXAXTvXW_vSig8X5IBFkwLqORD1OlQ9X",
         "is_comic": false
       },
       {
         "title": "Comic for a personal project",
         "tools": ["ps"],
-        "image_name": "weird_zebra",
+        "image_name": "illustration_07",
+        "image_link_id": "1-G7bzbIGp3MsPCdf9UebHW-0YHuQyfU2",
         "is_comic": true
       },
       {
         "title": "Comic for a personal project",
         "tools": ["ps"],
-        "image_name": "weird_zebra",
+        "image_name": "illustration_08",
+        "image_link_id": "1pzqNjZJssPSG5a7lMt1XmJQZvm9qanxN",
         "is_comic": true
       },
       {
         "title": "Comic for a personal project",
         "tools": ["ps"],
-        "image_name": "weird_zebra",
+        "image_name": "illustration_09",
+        "image_link_id": "1n-onUO74NuTcswUPVBHh90yoK7SZ87HW",
+        "is_comic": false
+      },
+      {
+        "title": "Comic for a personal project",
+        "tools": ["ps"],
+        "image_name": "illustration_10",
+        "image_link_id": "",
+        "link": "https://www.instagram.com/p/C24u2kFv8ws/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "is_comic": false
+      },
+      {
+        "title": "Comic for a personal project",
+        "tools": ["ps"],
+        "image_name": "illustration_11",
+        "image_link_id": "",
+        "link": "https://www.instagram.com/p/C3NZydsP6wZ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+        "is_comic": false
+      },
+      {
+        "title": "Comic for a personal project",
+        "tools": ["ps"],
+        "image_name": "illustration_12",
+        "image_link_id": "1QoMH4SMssKfAJKHMSxZfOAhuOLj7F_PA",
         "is_comic": false
       }
     ]
@@ -69,20 +100,22 @@
       {
         "title": "Social media content for a fintech company",
         "tools": ["ae", "pr", "ps"],
-        "image_name": "weird_zebra",
+        "image_name": "MD_01",
         "is_comic": false,
         "link": "https://www.instagram.com/reel/C4F9cWAyLXW/?igsh=bTBhMW5tYnN6cnB4"
       },
       {
         "title": "Artwork for a personal project",
         "tools": ["ps", "ae"],
-        "image_name": "weird_zebra",
+        "image_name": "MD_02",
+        "link": "https://www.instagram.com/reel/C0q-Bj3vcFf/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         "is_comic": false
       },
       {
         "title": "Artwork for a personal project",
         "tools": ["ps", "ae"],
-        "image_name": "weird_zebra",
+        "image_name": "MD_03",
+        "link": "https://www.instagram.com/p/C32doYjP7r7/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         "is_comic": false
       }
     ]
@@ -95,7 +128,7 @@
       {
         "title": "Donquix",
         "tools": ["figma", "ps"],
-        "image_name": "weird_zebra",
+        "image_name": "Brand_Design_01",
         "is_comic": false
       },
       {
@@ -120,7 +153,8 @@
       {
         "title": "Culture page for their company",
         "tools": ["figma"],
-        "image_name": "weird_zebra",
+        "image_name": "Web_Design_01",
+        "image_link_id": "1V-ACnzIuxNu5UXA5QYUkjQf1LPnYZ2v3",
         "is_comic": false
       },
       {
@@ -145,55 +179,85 @@
       {
         "title": "Photoshoot for commission",
         "tools": ["camera", "ps"],
-        "image_name": "weird_zebra",
+        "image_name": "Photography_01",
+        "image_link_id": "1NslnHSkgETBdelxry65vUCCXZmNdRVhK",
         "is_comic": false
       },
       {
         "title": "Photoshoot for commission",
         "tools": ["camera", "ps"],
-        "image_name": "weird_zebra",
+
+        "image_name": "Photography_02",
+        "image_link_id": "1XLW9TSAklosyO_PCVaU70OsFU_83a7qW",
         "is_comic": false
       },
       {
         "title": "Photoshoot for commission",
         "tools": ["camera", "ps"],
-        "image_name": "weird_zebra",
+
+        "image_name": "Photography_03",
+        "image_link_id": "1nrDMluHjMjDXK13f5E7Gx-y2D8kXUIZG",
         "is_comic": false
       },
       {
         "title": "Photoshoot for commission",
         "tools": ["camera", "ps"],
-        "image_name": "weird_zebra",
+
+        "image_name": "Photography_04",
+        "image_link_id": "1f7JJSILWv5HeWR87HBa-9v4Bk_JJedNR",
         "is_comic": false
       },
       {
         "title": "Photoshoot for commission",
         "tools": ["camera", "ps"],
-        "image_name": "weird_zebra",
+
+        "image_name": "Photography_05",
+        "image_link_id": "1qL1tZBMnO_1rngDvpPdaPtW6AtwViqYw",
         "is_comic": false
       },
       {
         "title": "Photoshoot for commission",
         "tools": ["camera", "ps"],
-        "image_name": "weird_zebra",
+
+        "image_name": "Photography_06",
+        "image_link_id": "1T6TYpJMJHKlnunmNRJFNJXiYGAUQJVb1",
         "is_comic": false
       },
       {
         "title": "Photoshoot for commission",
         "tools": ["camera", "ps"],
-        "image_name": "weird_zebra",
+
+        "image_name": "Photography_07",
+        "image_link_id": "19ESoetf-lxOabqpJWX7f3aJrUUlO3PoK",
         "is_comic": false
       },
       {
         "title": "Photoshoot for commission",
         "tools": ["camera", "ps"],
-        "image_name": "weird_zebra",
+
+        "image_name": "Photography_08",
+        "image_link_id": "1PgNRifN3c8kAklTFyEhk7irNJUXdko9B",
         "is_comic": false
       },
       {
         "title": "Photoshoot for commission",
         "tools": ["camera", "ps"],
-        "image_name": "weird_zebra",
+        "image_name": "Photography_09",
+        "image_link_id": "1eZWSdxrqPPpwzKUV8JT3ufKdyowJEaJd",
+        "is_comic": false
+      },
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "Photography_10",
+        "image_link_id": "1Qr0B68gRXqjvBU9Hi2Vyhz1KVgBwww-U",
+        "is_comic": false
+      },
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "Photography_11",
+        "image_link_id": "1KFDTclf0Ap88kgg7ZuK1yNwi0S9t86Vm",
         "is_comic": false
       }
     ]
@@ -206,19 +270,22 @@
       {
         "title": "YouTube video for a personal project",
         "tools": ["ae", "pr", "ps", "davinci", "camera"],
-        "image_name": "weird_zebra",
+        "image_name": "VP_01",
+        "link": "https://youtu.be/Y_ydbeCSMeI?si=tX3CtTmcAu2GLKRJ",
         "is_comic": false
       },
       {
         "title": "Instagram reel for a personal project",
         "tools": ["pr", "ps", "davinci", "camera"],
-        "image_name": "weird_zebra",
+        "image_name": "VP_02",
+        "link": "https://www.instagram.com/reel/C0G_zISPsL0/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         "is_comic": false
       },
       {
         "title": "Instagram reel for a personal project",
         "tools": ["pr", "ps", "davinci", "camera"],
-        "image_name": "weird_zebra",
+        "image_name": "VP_03",
+        "link": "https://www.instagram.com/reel/C3xaRm8Pmgv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         "is_comic": false
       }
     ]

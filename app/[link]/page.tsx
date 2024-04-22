@@ -64,22 +64,35 @@ export default function Page() {
                     className={mainStyle.crouselIcon}
                   />
                 )}
-                {element.link ? (
-                  <Image
-                    className={mainStyle.cubeImg}
-                    width={460}
-                    height={650}
-                    src={cubeImages["weird_zebra"]}
-                    alt="img"
-                  />
+                {element.image_name in cubeImages ? (
+                  element.link ? (
+                    <Image
+                      className={mainStyle.cubeImg}
+                      width={460}
+                      height={650}
+                      src={cubeImages[element.image_name]}
+                      alt="img"
+                    />
+                  ) : (
+                    <AntdImage
+                      id={"#" + mainStyle.cubeImg}
+                      width={460}
+                      height={650}
+                      src={
+                        element.image_name in cubeImages
+                          ? cubeImages[element.image_name].src
+                          : ""
+                      }
+                      alt="img"
+                      preview={{
+                        src: element.image_link_id
+                          ? `https://drive.google.com/thumbnail?id=${element.image_link_id}&sz=w500`
+                          : cubeImages[element.image_name].src,
+                      }}
+                    />
+                  )
                 ) : (
-                  <AntdImage
-                    id={"#" + mainStyle.cubeImg}
-                    width={460}
-                    height={650}
-                    src={cubeImages["weird_zebra"].src}
-                    alt="img"
-                  />
+                  <></>
                 )}
                 <div className={mainStyle.cubeInfo}>
                   <h4 className={mainStyle.cubeTitle}>{element.title}</h4>

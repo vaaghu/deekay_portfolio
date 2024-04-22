@@ -8,6 +8,7 @@ export type worksDataDto = {
     title: string;
     tools: string[];
     image_name: string;
+    image_link_id?: string;
     is_comic: boolean;
     link?: string;
   }[];
