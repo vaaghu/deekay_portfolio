@@ -1,16 +1,226 @@
-[
-  { "name": "Illustration", "image": "illustration", "link": "illustration" },
-  {
+{
+  "illustration": {
+    "name": "Illustration",
+    "image": "illustration",
+    "link": "illustration",
+    "works": [
+      {
+        "title": "Concept art for a game development studio",
+        "tools": ["ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Artwork for a personal project",
+        "tools": ["ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Comic for a personal project",
+        "tools": ["ps"],
+        "image_name": "weird_zebra",
+        "is_comic": true,
+        "link": "https://www.instagram.com/p/C3IHVBhP5Mx/?igsh=bGQ1emphZW1tdW0w"
+      },
+      {
+        "title": "Artwork for a personal project",
+        "tools": ["ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Artwork for a personal project",
+        "tools": ["ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Artwork for a commission",
+        "tools": ["ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Comic for a personal project",
+        "tools": ["ps"],
+        "image_name": "weird_zebra",
+        "is_comic": true
+      },
+      {
+        "title": "Comic for a personal project",
+        "tools": ["ps"],
+        "image_name": "weird_zebra",
+        "is_comic": true
+      },
+      {
+        "title": "Comic for a personal project",
+        "tools": ["ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      }
+    ]
+  },
+  "motion_design": {
     "name": "Motion Design",
     "image": "motion_design",
-    "link": "motion_design"
+    "link": "motion_design",
+    "works": [
+      {
+        "title": "Social media content for a fintech company",
+        "tools": ["ae", "pr", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false,
+        "link": "https://www.instagram.com/reel/C4F9cWAyLXW/?igsh=bTBhMW5tYnN6cnB4"
+      },
+      {
+        "title": "Artwork for a personal project",
+        "tools": ["ps", "ae"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Artwork for a personal project",
+        "tools": ["ps", "ae"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      }
+    ]
   },
-  { "name": "Brand Design", "image": "brand_design", "link": "brand_design" },
-  { "name": "Web Design", "image": "web_design", "link": "web_design" },
-  { "name": "Photography", "image": "photography", "link": "photography" },
-  {
+  "brand_design": {
+    "name": "Brand Design",
+    "image": "brand_design",
+    "link": "brand_design",
+    "works": [
+      {
+        "title": "Donquix",
+        "tools": ["figma", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Adding Soon",
+        "tools": [],
+        "image_name": "",
+        "is_comic": false
+      },
+      {
+        "title": "Adding Soon",
+        "tools": [],
+        "image_name": "",
+        "is_comic": false
+      }
+    ]
+  },
+  "web_design": {
+    "name": "Web Design",
+    "image": "web_design",
+    "link": "web_design",
+    "works": [
+      {
+        "title": "Culture page for their company",
+        "tools": ["figma"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Adding Soon",
+        "tools": [],
+        "image_name": "",
+        "is_comic": false
+      },
+      {
+        "title": "Adding Soon",
+        "tools": [],
+        "image_name": "",
+        "is_comic": false
+      }
+    ]
+  },
+  "photography": {
+    "name": "Photography",
+    "image": "photography",
+    "link": "photography",
+    "works": [
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Photoshoot for commission",
+        "tools": ["camera", "ps"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      }
+    ]
+  },
+  "video_production": {
     "name": "Video Production",
     "image": "video_production",
-    "link": "video_production"
+    "link": "video_production",
+    "works": [
+      {
+        "title": "YouTube video for a personal project",
+        "tools": ["ae", "pr", "ps", "davinci", "camera"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Instagram reel for a personal project",
+        "tools": ["pr", "ps", "davinci", "camera"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      },
+      {
+        "title": "Instagram reel for a personal project",
+        "tools": ["pr", "ps", "davinci", "camera"],
+        "image_name": "weird_zebra",
+        "is_comic": false
+      }
+    ]
   }
-]
+}

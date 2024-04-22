@@ -1,3 +1,17 @@
 export { default as navIconData } from "./navIcon.json";
-export { default as worksData } from "./works.json";
+import { default as works } from "./works.json";
+export type worksDataDto = {
+  name: string;
+  image: string;
+  link: string;
+  works: {
+    title: string;
+    tools: string[];
+    image_name: string;
+    is_comic: boolean;
+    link?: string;
+  }[];
+};
+export const worksData: { [key: string]: worksDataDto } = works;
+
 export * as Constants from "./constants";

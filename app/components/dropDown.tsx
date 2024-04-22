@@ -3,7 +3,6 @@ import { initialSectionStyle } from "../assets/styles";
 import { menuIcon } from "../assets/images/icons";
 import Image from "next/image";
 import { worksData } from "../utils";
-import Link from "next/link";
 
 export const DropDown = () => {
   return (
@@ -13,7 +12,7 @@ export const DropDown = () => {
         Home
       </div>
       <div className={initialSectionStyle.navDropDownMenu}>
-        {worksData.map((work, index) => {
+        {Object.values(worksData).map((work, index) => {
           return (
             <button
               onClick={() => {

@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <section ref={sectionRef} className={indexStyle.mainSection}>
       <InitialSection isMobile={isMobile} />
-      {worksData.map((work, index) => (
+      {Object.values(worksData).map((work, index) => (
         <WorkSection
           key={index}
           isMobile={isMobile}

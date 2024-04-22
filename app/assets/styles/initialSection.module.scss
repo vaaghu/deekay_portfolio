@@ -129,6 +129,7 @@
   .navBar {
     font-size: 15px;
     top: 20px;
+    width: 100vw;
     img {
       width: 20px;
       height: 20px;
@@ -136,7 +137,7 @@
   }
   .navDropDown {
     padding: 5px;
-    margin-left: 15px;
+    margin: 0px 15px;
     position: static;
     left: auto;
     transform: unset;
@@ -148,6 +149,11 @@
     position: static;
     left: auto;
     transform: unset;
+    max-width: 55vw;
+    flex-wrap: wrap;
+    img {
+      margin: 0px 10px 15px 0px;
+    }
   }
   .navMid {
     width: unset;
