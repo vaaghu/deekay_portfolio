@@ -5,6 +5,7 @@ import { workComponentStyle } from "../assets/styles";
 import { arrowIcon } from "../assets/images/icons";
 
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
 export const WorkSection: React.FC<{
   isMobile: boolean;
@@ -14,6 +15,7 @@ export const WorkSection: React.FC<{
 }> = ({ isMobile, name, link, image }) => {
   // console.log(link);
   const router = useRouter();
+  const [isRotate, setIsRotate] = useState(false);
 
   return (
     <div className={workComponentStyle.workSection} id={link}>
@@ -24,10 +26,15 @@ export const WorkSection: React.FC<{
         alt="work"
       />
       <Image
-        className={workComponentStyle.arrowIcon}
+        className={
+          workComponentStyle.arrowIcon +
+          " " +
+          (isRotate && workComponentStyle.arrowRotate)
+        }
         src={arrowIcon}
         alt="arrow"
         onClick={() => {
+          setIsRotate(true);
           router.push(`/${link}`);
         }}
       />

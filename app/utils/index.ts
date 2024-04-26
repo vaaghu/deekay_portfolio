@@ -10,7 +10,7 @@ export type worksDataDto = {
     image_name: string;
     image_link_id?: string;
     is_comic: boolean;
-    link?: string;
+    link?: string | boolean;
   }[];
 };
 export const worksData: { [key: string]: worksDataDto } = works;

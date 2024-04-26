@@ -129,7 +129,8 @@
         "title": "Donquix",
         "tools": ["figma", "ps"],
         "image_name": "Brand_Design_01",
-        "is_comic": false
+        "is_comic": false,
+        "link": true
       },
       {
         "title": "Adding Soon",

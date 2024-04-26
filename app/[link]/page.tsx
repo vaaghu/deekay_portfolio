@@ -29,7 +29,6 @@ export default function Page() {
     window.open(link, "_blank");
   };
 
-  console.log();
   return (
     <section className={mainStyle.mainSection}>
       <h2 className={mainStyle.title}>
@@ -50,12 +49,17 @@ export default function Page() {
       <div className={mainStyle.gallery}>
         {info &&
           info.works.map((element, index) => {
+            console.log(element.link ? true : false);
             return (
               <div
                 key={index}
                 className={mainStyle.cube}
                 onClick={() => {
-                  if (element.link) openLink(element.link);
+                  if (element.link) {
+                    if (typeof element.link == "string") {
+                      openLink(element.link);
+                    }
+                  }
                 }}>
                 {element.is_comic && (
                   <Image
